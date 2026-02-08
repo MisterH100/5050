@@ -113,7 +113,7 @@ body {
 .wheel-container {
   position: relative;
   max-width: 395px;
-  height: 55%;
+  height: 60%;
   margin: 20px auto 0px;
   display: flex;
   padding: 200px 20px 0 20px;
