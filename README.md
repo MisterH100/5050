@@ -1,4 +1,4 @@
-# 5050 - v0.1.0
+# 5050
 A simple offline savings challenge app
 
 ![Screenshot for 5050 App homepage](./assets/5050v0.1.0.png)
