@@ -64,7 +64,8 @@ export function playSoundEffect(file) {
   if (!effect) {
     return;
   }
-  effect.play();
+  effect.currentTime = 0;
+  effect.play().catch((error) => console.log(error));
 }
 
 export function showNotification(message) {

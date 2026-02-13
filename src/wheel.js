@@ -7,6 +7,7 @@ import {
   playSoundEffect,
   showNotification,
 } from "/src/util.js";
+import moneyBagShort from "/audio/money-bag-short.mp3";
 const TIME_OUT = 1000;
 const T_RADIUS = 150;
 const wheel = document.getElementById("wheel");
@@ -160,7 +161,7 @@ export function submit() {
     centerWheel();
   }
 
-  playSoundEffect("/audio/money-bag-short.mp3");
+  playSoundEffect(moneyBagShort);
   state.totalCents += convertRandsToCents(Number(totalAmount));
   state.completeDays += 1;
   state.numArray = numArray;
