@@ -4,6 +4,7 @@ import { loadBanner } from "/src/banner.js";
 import { isNewDay } from "/src/util.js";
 import { getToday } from "/src/time.js";
 import { showTutorial } from "/src/tutorial.js";
+
 let state = JSON.parse(localStorage.getItem("appstate"));
 
 if (!state) {
