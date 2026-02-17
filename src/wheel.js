@@ -8,6 +8,7 @@ import {
   showNotification,
 } from "/src/util.js";
 import moneyBagShort from "/audio/money-bag-short.mp3";
+
 const TIME_OUT = 1000;
 const T_RADIUS = 150;
 const wheel = document.getElementById("wheel");
