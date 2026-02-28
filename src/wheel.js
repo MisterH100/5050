@@ -178,6 +178,7 @@ export function submit() {
 
   let rotationDelta = 360 / 6;
   rotateWheel(rotationDelta);
+  window.location.reload();
 }
 
 export function addSliceEvent() {
