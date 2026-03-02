@@ -6,6 +6,7 @@ import { getToday } from "/src/time.js";
 import { showTutorial } from "/src/tutorial.js";
 
 let state = JSON.parse(localStorage.getItem("appstate"));
+let loading = document.getElementById("loading");
 
 if (!state) {
   let numArray = Array.from({ length: 100 }, (_, i) => i + 1);
@@ -46,4 +47,9 @@ function loadApp() {
   rotateWheel(0);
 }
 
+window.addEventListener("DOMContentLoaded", () => {
+  if (loading) {
+    loading.remove();
+  }
+});
 loadApp();

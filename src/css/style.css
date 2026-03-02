@@ -39,6 +39,25 @@ body {
   background-color: var(--muted-blue);
 }
 
+.loading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 395px;
+  width: 100vw;
+  height: 100vh;
+  background: var(--muted-blue);
+  z-index: 9999;
+}
+
+.loading-image {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* .header { */
 /*   max-width: 395px; */
 /*   height: 80px; */
